@@ -3,3 +3,22 @@ def soma(a, b):
 
 def subtracao(a, b):
     return a - b
+
+def multiplicação(a, b):
+    return a * b
+
+def divisão(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Erro: divisão por zero"
+
+def potenciação(a, b):
+    return a ** b
+
+if __name__ == "__main__":
+    print("Soma: ", soma(5, 3))
+    print("Subtração: ", subtracao(5, 3))
+    print("multiplicação:", multiplicação(5,3))
+    print("divisão:", divisão(5,3))
+    print("potenciação:", potenciação(5,3))
